@@ -1,0 +1,29 @@
+@relation student_performance
+
+@attribute age numeric
+@attribute study_hours numeric
+@attribute attendance numeric
+@attribute assignment_score numeric
+@attribute result {Pass,Fail}
+
+@data
+20,5,85,78,Pass
+21,2,60,55,Fail
+22,6,90,88,Pass
+19,3,65,60,Fail
+23,7,92,91,Pass
+20,4,75,72,Pass
+24,1,55,48,Fail
+22,5,82,80,Pass
+19,2,58,52,Fail
+21,6,88,85,Pass
+23,3,68,64,Fail
+20,7,94,90,Pass
+25,2,62,58,Fail
+22,4,78,75,Pass
+19,1,50,45,Fail
+24,6,89,87,Pass
+21,3,70,66,Fail
+23,5,84,81,Pass
+20,2,57,50,Fail
+25,7,95,93,Pass
